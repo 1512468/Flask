@@ -17,7 +17,7 @@ ADD . /var/www/html
 EXPOSE 80
 
 # Khi chạy container tự động chạy ngay httpd
-ENTRYPOINT ["/usr/sbin/httpd"]
+# ENTRYPOINT ["/usr/sbin/httpd"]
 
 #chạy terminate
 CMD ["-D", "FOREGROUND"]
