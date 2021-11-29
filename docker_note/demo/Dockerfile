@@ -1,12 +1,11 @@
 FROM ubuntu:latest
 
 # Cập nhật các gói và cài vào đó HTTPD, HTOP, VIM
-RUN apt update -y
-RUN apt install httpd httpd-tools -y
-RUN apt install epel-release -y \
-    && apt update -y \
-    && apt install htop -y \
-    && apt install vim -y
+RUN apt update
+
+RUN apt update  \
+    && apt install htop  \
+    && apt install vim 
 
 #Thiết lập thư mục hiện tại
 WORKDIR /var/www/html
