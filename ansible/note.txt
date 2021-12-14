@@ -1,0 +1,11 @@
+- Start
+- What is Ansible?
+- Why use Ansible?
+- Ansible is agentless
+- Ansible Modules explained
+- YAML Syntax
+- Ansible Playbook explained
+- Ansible Inventory
+- Ansible for Docker
+- Ansible Tower
+- Ansible vs Puppet and Chef
